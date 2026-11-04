@@ -1,6 +1,5 @@
 from rendering import Game
 from ai_gym_env import TicTacToeEnv, np, _load_model
-import pickle
 import argparse
 
 def _parse_args() -> argparse.Namespace:
